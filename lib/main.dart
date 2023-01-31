@@ -109,10 +109,11 @@ class _MyHomePageState extends State<MyHomePage>
           ),
           Positioned(
             top: kToolbarHeight + 10,
+            right: 0,
             child: SlideTransition(
               position: Tween<Offset>(
-                begin: const Offset(6, 0),
-                end: const Offset(3.8, 0),
+                begin: const Offset(1, 0),
+                end: Offset.zero,
               ).animate(animationController),
               child: Container(
                 width: 250,
