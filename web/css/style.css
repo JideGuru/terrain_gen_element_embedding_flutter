@@ -1,0 +1,23 @@
+body {
+	margin:0 auto;
+	overflow:hidden;
+	background: transparent;
+	color: transparent;
+}
+canvas {
+	margin:0 auto;
+ 	/* border:2px solid lime; */
+}
+
+/*
+position: absolute; is important cus that allows the flutter_target to be stacked on the p5.js canvas
+*/
+#flutter_target {
+  /* border:2px solid lime; */
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  border-radius: 0px;
+  background: transparent;
+  color: transparent;
+}
